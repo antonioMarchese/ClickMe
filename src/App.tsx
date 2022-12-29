@@ -8,14 +8,14 @@ import {
   faMinus,
 } from "@fortawesome/free-solid-svg-icons";
 
+const colors = ["176, 215, 255", "220, 127, 155", "247, 161, 196"];
+
 interface Coordinates {
   x: number;
   y: number;
   color: string;
   size: number;
 }
-
-const colors = ["176, 215, 255", "220, 127, 155", "247, 161, 196"];
 
 function App() {
   const [list, setList] = useState<Coordinates[]>([]);
